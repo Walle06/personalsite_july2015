@@ -1,0 +1,72 @@
+html, body{
+	padding: 0px;
+	margin:0px;
+	background:rgba(200,100,100,1);
+}
+#wrap{
+	width: 960px;
+	border:solid 1px #ccc;
+	margin: 0 auto;
+
+}
+#titleBar{
+	width: 100%;
+	height: 70px;
+	background: #000;
+
+}
+#title{
+	text-align: center;
+	color: #fff;
+	font-size: 30pt;
+	letter-spacing: 10px;
+	display: block;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+nav{
+
+}
+nav ul{
+	list-style: none;
+	border:solid 2px red;
+	padding-left: 0px;
+
+}
+nav ul li{
+	border:solid 1px #000;
+	width: 30%;
+	float: left;
+
+}
+#ColumnA{
+	padding-left: 5px;
+	border: solid 1px #FF0;
+	height: 500px;
+	width: 200px;
+	background: rgba(100,100,100,1);
+	position: absolute;
+	top: 150px;
+	left: 200px;
+
+}
+.ColumnB{
+	padding-left: 5px;
+	border: solid 1px #FF0;
+	height: 500px;
+	width: 200px;
+	background: rgba(100,100,100,1);
+	position: absolute;
+	top: 150px;
+	left: 500px;
+}
+.ColumnC{
+	padding-left: 5px;
+	border: solid 1px #FF0;
+	height: 500px;
+	width: 200px;
+	background: rgba(100,100,100,1);
+	position: absolute;
+	top: 150px;
+	left: 800px;
+}

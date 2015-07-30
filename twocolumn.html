@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Two Column Layout</title>
+	<style>
+	   body{
+	   	 background-image: url(https://amazingsky.files.wordpress.com/2014/08/red-sun-in-a-prairie-sunset.jpg);
+	   }
+	   #Column1{
+	   	border: solid 2px #000;
+	   	width: 250px;
+	   	height: 600px;
+	   	background: rgba(100,150,200,.5);
+	   	position: absolute;
+	   	top: 75px;
+	   	left: 300px;
+
+	   }
+	   #mediaBar{
+	   	padding-left: 45px;
+	   	width: 100px;
+	   	height: 500px;
+	   	background: rgba(255,200,100,1);
+	   	position: fixed;
+	   	left: 0px;
+	   	top: 60px;
+	   	z-index: 100;
+
+	   }
+	   .Column2{
+	   	border: solid 2px #000;
+	   	width: 250px;
+	   	height: 600px;
+	   	background: rgba(100,150,200,.5);
+	   	position: absolute;
+	   	top: 75px;
+	   	right: 300px;
+	   }
+	   #Banner{
+	   	width: 100%;
+	   	margin: 0 auto;
+	   	height: 60px;
+	   	background: rgba(255,200,100,1);
+	   	position: fixed;
+	   	top: 0px;
+	   	left:0px;
+	   	z-index: 100;
+
+	   }
+	   span{
+	   	letter-spacing: 10px;
+	   	margin-left: 230px;
+	   	font-size: 30pt;
+	   	font-family: courier;
+	   	color: #f00;
+	   }
+	</style>
+
+</head>
+<body>
+	<div id="Banner"> <span> <u> My Two Column Layout!</u></span>
+	</div>
+	<div id="Column1">
+		<p style="color:#FFF">Text text text text TextTText text text text text text textext text text text text text text text text text text text texttext text text</p>
+	 </div>
+
+	<div id="mediaBar"> 
+		<a href="http://www.facebook.com" target="_blank"> <img src="images/facebookicon.png" width="60px" height="60px"/></a>
+		<br>
+		<a href="http://www.twitter.com" target="_blank"> <img src="images/twittericon.png" width="60px" height="60px"/></a>
+
+	</div>
+
+	<div class="Column2">
+		<p style="color:#fff">   Text Text Text Text text text text text text texttext text text text text texttext text text text text texttext text text text text text</p>
+	 </div>
+
+</body>
+</html>
