@@ -12,35 +12,37 @@
 	   	height: 600px;
 	   	background: rgba(100,150,200,.5);
 	   	position: absolute;
-	   	top: 75px;
-	   	left: 300px;
+	   	top: 150px;
+	   	left: 200px;
 
 	   }
 	   #mediaBar{
-	   	padding-left: 45px;
-	   	width: 100px;
-	   	height: 500px;
-	   	background: rgba(255,200,100,1);
+	   	padding-left: 20px;
+	   	padding-top: 20px;
+	   	width: 75px;
+	   	height: 200px;
+	   	background: rgba(0,0,0,1);
 	   	position: fixed;
 	   	left: 0px;
-	   	top: 60px;
+	   	top: 150px;
 	   	z-index: 100;
 
 	   }
-	   .Column2{
+	   #Column2{
 	   	border: solid 2px #000;
 	   	width: 250px;
 	   	height: 600px;
 	   	background: rgba(100,150,200,.5);
 	   	position: absolute;
-	   	top: 75px;
-	   	right: 300px;
+	   	top: 150px;
+	   	right: 200px;
 	   }
 	   #Banner{
-	   	width: 100%;
-	   	margin: 0 auto;
+	   	border: solid 1px white;
+	   	width: 960px;
+	   	margin-left: 45px;
 	   	height: 60px;
-	   	background: rgba(255,200,100,1);
+	   	background: rgba(0,0,0,1);
 	   	position: fixed;
 	   	top: 0px;
 	   	left:0px;
@@ -49,31 +51,72 @@
 	   }
 	   span{
 	   	letter-spacing: 10px;
-	   	margin-left: 230px;
+	   	margin-left: 150px;
 	   	font-size: 30pt;
 	   	font-family: courier;
-	   	color: #f00;
+	   	color: white;
+
 	   }
+	   nav{
+
+         }
+       nav ul{
+	     list-style: none;
+	     padding-top: 30px;
+	     padding-left:80px
+
+        }
+       nav ul li{
+          background: black;
+	      color: white;
+	      border: solid 1px white;
+	      display: inline-block;
+	      text-align: center;
+	      height: 30px;
+	      padding-top: 10px;
+	      width: 30%;
+	      font-size: 14pt;
+         }
+       nav ul li:hover{
+	      background: white;
+	      color: black;
+	      cursor: pointer;
+         }   
 	</style>
 
 </head>
 <body>
 	<div id="Banner"> <span> <u> My Two Column Layout!</u></span>
+
 	</div>
 	<div id="Column1">
-		<p style="color:#FFF">Text text text text TextTText text text text text text textext text text text text text text text text text text text texttext text text</p>
+
 	 </div>
 
 	<div id="mediaBar"> 
 		<a href="http://www.facebook.com" target="_blank"> <img src="images/facebookicon.png" width="60px" height="60px"/></a>
 		<br>
+		<br>
+		<br>
+
 		<a href="http://www.twitter.com" target="_blank"> <img src="images/twittericon.png" width="60px" height="60px"/></a>
 
 	</div>
 
-	<div class="Column2">
-		<p style="color:#fff">   Text Text Text Text text text text text text texttext text text text text texttext text text text text texttext text text text text text</p>
+	<div id="Column2">
+
 	 </div>
+	 <br>
+
+	 <nav>
+        <ul>
+            <a href="index.html"> <li>Home</li> </a>
+
+            <a href="twocolumn.html"> <li>About Me</li> </a>
+
+     	     <a href="gallery.html"> <li>Gallery</li> </a>	
+        </ul>		
+    </nav> 
 
 </body>
 </html>
