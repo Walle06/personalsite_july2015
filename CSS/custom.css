@@ -57,7 +57,7 @@ nav ul li:hover{
 #ColumnA{
 	padding-left: 5px;
 	border: solid 1px #FF0;
-	height: 500px;
+	height: 200px;
 	width: 200px;
 	background: rgba(100,100,100,.5);
 	position: absolute;
@@ -68,21 +68,21 @@ nav ul li:hover{
 .ColumnB{
 	padding-left: 5px;
 	border: solid 1px #FF0;
-	height: 500px;
+	height: 200px;
 	width: 200px;
 	background: rgba(100,100,100,.5);
 	position: absolute;
-	top: 150px;
+	top: 300px;
 	left: 425px;
 }
 .ColumnC{
 	padding-left: 5px;
 	border: solid 1px #FF0;
-	height: 500px;
+	height: 200px;
 	width: 200px;
 	background: rgba(100,100,100,.5);
 	position: absolute;
-	top: 150px;
+	top: 450px;
 	left: 725px;
 }
 #LinkBar{
