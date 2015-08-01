@@ -12,19 +12,19 @@
 	   	height: 600px;
 	   	background: rgba(100,150,200,.5);
 	   	position: absolute;
-	   	top: 150px;
+	   	top: 200px;
 	   	left: 200px;
 
 	   }
 	   #mediaBar{
-	   	padding-left: 20px;
+	   	padding-left: 15px;
 	   	padding-top: 20px;
-	   	width: 75px;
+	   	width: 70px;
 	   	height: 200px;
 	   	background: rgba(0,0,0,1);
 	   	position: fixed;
 	   	left: 0px;
-	   	top: 150px;
+	   	top: 170px;
 	   	z-index: 100;
 
 	   }
@@ -34,27 +34,27 @@
 	   	height: 600px;
 	   	background: rgba(100,150,200,.5);
 	   	position: absolute;
-	   	top: 150px;
+	   	top: 200px;
 	   	right: 200px;
 	   }
-	   #Banner{
-	   	border: solid 1px white;
-	   	width: 960px;
-	   	margin-left: 45px;
-	   	height: 60px;
-	   	background: rgba(0,0,0,1);
-	   	position: fixed;
-	   	top: 0px;
-	   	left:0px;
-	   	z-index: 100;
-
-	   }
-	   span{
-	   	letter-spacing: 10px;
-	   	margin-left: 150px;
-	   	font-size: 30pt;
-	   	font-family: courier;
-	   	color: white;
+	  #wrap{
+	  	width: 960px;
+	  	border: solid 1px #ccc;
+	  	margin: 0 auto;
+	  }
+	  #titleBar{
+	  	width: 100%;
+	  	height: 70px;
+	  	background: #000;
+	  }
+	  #title{
+	   text-align: center;
+	   color: #fff;
+	   font-size: 30pt;
+	   letter-spacing: 10px;
+	   display: block;
+	   padding-left: 20px;
+	   padding-top: 15px;
 
 	   }
 	   nav{
@@ -62,7 +62,6 @@
          }
        nav ul{
 	     list-style: none;
-	     padding-top: 30px;
 	     padding-left:80px
 
         }
@@ -86,9 +85,13 @@
 
 </head>
 <body>
-	<div id="Banner"> <span> <u> My Two Column Layout!</u></span>
-
-	</div>
+	<div id="wrap">
+		<div id="titleBar">
+			<span id="title">
+			  About Me!
+			</span>
+		</div>
+	</div>		
 	<div id="Column1">
 
 	 </div>
