@@ -111,6 +111,7 @@ nav ul li:hover{
 	width: 350px;
 	height: 350px;
 	border-radius: 175px;
+	float: top;
 }
 #Circle2{
 	margin: 15px;
@@ -121,6 +122,7 @@ nav ul li:hover{
 	position: absolute;
 	top: 135px;
 	right: 100px;
+	float: top;
 }
 #Circle3{
 	background-image: url(https://nyuji9.files.wordpress.com/2012/03/graffiti_1.jpeg);
@@ -128,6 +130,7 @@ nav ul li:hover{
 	width: 350px;
 	height: 350px;
 	border-radius: 175px;
+	float: top;
 }
 #Circle4{
 	background-image: url(http://senseslost.com/third-rail-content/uploads/2008/02/newyork.jpg);
@@ -138,5 +141,25 @@ nav ul li:hover{
 	position: absolute;
 	top: 500px;
 	right: 100px;
+	float: top;
 
+}
+#Circle5{
+	background-image: url(https://36.media.tumblr.com/64a60649c8790163a79c82ff8b27a643/tumblr_myzv8u3Vfk1qaf0pgo1_500.jpg);
+	margin: 15px;
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	float: top;
+}
+#Circle6{
+	background-image: url(http://newyorkmanual.info/wp-content/uploads/2015/07/colorful-street-graffiti-wallpaper1366x76862795.jpg);
+	margin: 15px;
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	position: absolute;
+	top: 865px;
+	right: 100px;
+	float: top;
 }
